@@ -1,0 +1,103 @@
+.background-myweb {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 20vw;
+    left: 10vw;
+    top: 7vh;
+    bottom: 7vh;
+    height: 86vh;
+    border-radius: 2%;
+    position: fixed;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.profile-pic {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    display: block;   
+    margin: 0 auto;
+    margin-top: 4vw;        
+}
+
+.profile-name {
+    fo
+}
+.main-content {
+    position: fixed;
+    left: 37vw;
+    top: 7vh;
+    width: 60vw;
+    height: 87vh;
+    overflow-y: scroll;       
+    overflow-x: hidden;
+    scrollbar-width: none;    /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+
+}
+.main-content::-webkit-scrollbar {
+    display: none;            
+}
+.graduation-text{
+    font-family: "DM Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+
+    font-size: 0.7vw;
+    color: white;
+    margin-top: 7vh;
+    letter-spacing: 0.05em; 
+}
+
+.title {
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    margin-top: -1vh;
+}
+
+.introduction-text { 
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 50.5vw;
+    height: 15vh;
+    border-radius: 1vh ;
+    padding: 2vh 2vw;  
+    display: flex;             
+    justify-content: center;   /*?*/
+    align-items: center;        /*?*/
+    text-align: center;        /*?*/
+}
+
+.project-box {
+    display: inline-flex; 
+    justify-content: center;  
+    align-items: center;      
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    width: 12vw;
+    height: 15vh;
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+    border-radius: 1vh;
+    
+    text-align: center;      
+}
+

@@ -1,0 +1,6 @@
+.background {
+    background-image: url(images/background2.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

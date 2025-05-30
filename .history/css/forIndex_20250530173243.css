@@ -1,0 +1,66 @@
+.background-myweb {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 20vw;
+    left: 10vw;
+    top: 7vh;
+    bottom: 7vh;
+    height: 86vh;
+    border-radius: 2%;
+    position: fixed;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.main-content { 
+    position: fixed;
+    left: 37vw;
+    top: 7vh;
+}
+
+.graduation-text{
+    font-family: "DM Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+
+    font-size: 0.7vw;
+    color: white;
+    margin-top: 7vh;
+    letter-spacing: 0.05em; 
+}
+
+.title {
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    margin-top: -1vh;
+}
+
+.introduction-text { 
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 20vw;
+    left: 10vw;
+    top: 7vh;
+    bottom: 7vh;
+    height: 86vh;
+    border-radius: 2%;
+    position: fixed;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}

@@ -1,0 +1,160 @@
+.background-myweb {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 20vw;
+    left: 10vw;
+    top: 7vh;
+    bottom: 7vh;
+    height: 86vh;
+    border-radius: 2%;
+    position: fixed;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.profile-pic {
+    width: 8vw;
+    height: 8vw;
+    object-fit: cover; 
+    border-radius: 50%;
+    display: block;   
+    margin: 0 auto;
+    margin-top: 4vw;        
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.contact-info {
+    display: flex;
+    gap: 0.8em;
+    font-size: 1rem;
+    color: #eee;
+    justify-content: center;   /*?*/
+    align-items: center;        /*?*/
+}
+
+.contact-item {
+  color: #eee;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  transition: color 0.3s;
+}
+
+.contact-item:hover {
+  color: #1e90ff; /* 悬停变蓝色 */
+  cursor: pointer;
+}
+
+.contact-item i {
+  font-size: 1.2em;
+}
+
+hr{
+    margin-top: 3vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;  /* 左右对齐 */
+    align-items: center;             /* 垂直居中 */
+    color: white;
+    margin-left: 1vw;
+}
+
+.profile-info-item1,
+.profile-info-item2 {
+    font-size: 1.1vw;
+    font-weight: normal;
+
+}
+
+.profile-info-item1 {
+    font-weight: bold;
+}
+
+.main-content {
+    position: fixed;
+    left: 37vw;
+    top: 7vh;
+    width: 60vw;
+    height: 87vh;
+    overflow-y: scroll;       
+    overflow-x: hidden;
+    scrollbar-width: none;    /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+
+}
+.main-content::-webkit-scrollbar {
+    display: none;            
+}
+.graduation-text{
+    font-family: "DM Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+
+    font-size: 0.7vw;
+    color: white;
+    margin-top: 7vh;
+    letter-spacing: 0.05em; 
+}
+
+.title {
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    margin-top: -1vh;
+}
+
+.introduction-text { 
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 50.5vw;
+    height: 15vh;
+    border-radius: 1vh ;
+    padding: 2vh 2vw;  
+    display: flex;             
+    justify-content: center;   /*?*/
+    align-items: center;        /*?*/
+    text-align: center;        /*?*/
+}
+
+.project-box {
+    display: inline-flex; 
+    justify-content: center;  
+    align-items: center;      
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    width: 12vw;
+    height: 15vh;
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+    border-radius: 1vh;
+    
+    text-align: center;      
+}
+

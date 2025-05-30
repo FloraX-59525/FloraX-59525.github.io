@@ -1,0 +1,15 @@
+.background-myweb {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.profile {
+    background-color: white;
+    width: 20vw;
+    margin-left: 10vw;
+    margin-top: 6vh;
+}

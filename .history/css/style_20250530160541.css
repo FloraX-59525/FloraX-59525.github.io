@@ -1,0 +1,14 @@
+.background-myweb {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    color: wh;
+}
