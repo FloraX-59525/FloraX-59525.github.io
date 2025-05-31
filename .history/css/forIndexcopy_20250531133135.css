@@ -162,3 +162,29 @@ hr{
     text-align: center;      
 }
 
+/* 手机端（小于768px） */
+@media screen and (max-width: 768px) {
+  .profile {
+    position: static;
+    width: 90vw;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .main-content {
+    position: static;
+    width: 90vw;
+    margin: 0 auto;
+    overflow: visible;
+  }
+
+  .introduction-text, .project-box {
+    width: 100%;
+    height: auto;
+    margin: 1vh 0;
+  }
+
+  .project-box {
+    display: block;
+  }
+}

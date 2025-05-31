@@ -1,0 +1,154 @@
+.background-myweb {
+    /* background-image: url(../images/back.jpg); */
+    background-image: url(https://s21.ax1x.com/2025/05/30/pV9ZQR1.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 300px;          
+    left: 150px;           
+    bottom: 60px;          
+    height: 700px;        
+    border-radius: 2%;     
+    position: fixed;
+    padding-top: 10px;      
+    padding-bottom: 10px;
+    padding-left: 15px;    
+    padding-right: 15px;
+}
+
+.profile-pic {
+    width: 120px;          
+    height: 120px;         
+    object-fit: cover; 
+    border-radius: 50%;
+    display: block;  
+    margin: 0 auto;  
+    margin-top: 60px;     
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 22px;      
+    font-weight: bold;
+    margin-top: 15px;      
+}
+
+.contact-info {
+    display: flex;
+    gap: 15px;
+    color: #eee;
+    justify-content: center;   
+    align-items: center;       
+}
+
+.contact-item {
+    color: #eee;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.contact-item:hover {
+    color: #1e90ff; 
+    cursor: pointer;
+}
+
+
+
+hr {
+    margin-top: 24px;    /* 32 * 0.75 */
+    margin-left: 14px;   /* 19 * 0.75 */
+    margin-right: 14px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    color: white;
+    margin-left: 14px;   
+    margin-right: 14px;
+    margin-top: -24px;   
+    margin-bottom: -24px;
+}
+
+.profile-info-item1,
+.profile-info-item2 {
+    font-size: 16px;     /* 21 * 0.75 */
+    font-weight: normal;
+}
+
+.profile-info-item1 {
+    font-weight: bold;
+}
+
+.main-content {
+    position: fixed;
+    left: 533px;        /* 710 * 0.75 */
+    top: 57px;          /* 76 * 0.75 */
+    width: 864px;       /* 1152 * 0.75 */
+    height: 705px;      /* 940 * 0.75 */
+    overflow-y: scroll;       
+    overflow-x: hidden;
+    scrollbar-width: none;    
+    -ms-overflow-style: none; 
+}
+.main-content::-webkit-scrollbar {
+    display: none;            
+}
+
+.graduation-text {
+    font-family: "DM Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    font-size: 10px;     /* 13 * 0.75 */
+    color: white;
+    margin-top: 57px;    /* 76 * 0.75 */
+    letter-spacing: 0.05em; 
+}
+
+.title {
+    font-size: 43px;     /* 58 * 0.75 */
+    font-weight: bold;
+    color: white;
+    margin-top: -8px;    /* -11 * 0.75 */
+}
+
+.introduction-text { 
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 727px;        /* 969 * 0.75 */
+    height: 122px;       /* 162 * 0.75 */
+    border-radius: 8px;  /* 11 * 0.75 */
+    padding: 17px 29px;  /* 22 * 0.75, 38 * 0.75 */
+    display: flex;             
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-box {
+    display: inline-flex; 
+    justify-content: center;  
+    align-items: center;      
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    width: 172px;        /* 230 * 0.75 */
+    height: 122px;       /* 162 * 0.75 */
+    margin-right: 29px;  /* 38 * 0.75 */
+    margin-bottom: 24px; /* 32 * 0.75 */
+    border-radius: 8px;  /* 11 * 0.75 */
+    text-align: center;      
+}

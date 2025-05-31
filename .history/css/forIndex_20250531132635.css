@@ -49,7 +49,7 @@
     font-size: 1rem;
     color: #eee;
     justify-content: center;   /*主轴方向居中*/
-    align-items: center;        /*主轴方向居中*/
+    align-items: center;        /*	主轴方向居中*/
 }
 
 .contact-item {

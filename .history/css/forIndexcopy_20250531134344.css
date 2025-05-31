@@ -1,0 +1,159 @@
+.background-myweb {
+    /* background-image: url(../images/back.jpg); */
+    background-image: url(https://s21.ax1x.com/2025/05/30/pV9ZQR1.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 384px;          /* 20vw × 1920px = 384px */
+    left: 192px;           /* 10vw × 1920px = 192px */
+    top: 76px;             /* 7vh × 1080px = 75.6px ≈ 76px */
+    bottom: 76px;          
+    height: 927px;         /* 86vh × 1080px = 928.8px ≈ 927px */
+    border-radius: 2%;     /* 保留百分比 */
+    position: fixed;
+    padding-top: 11px;     /* 1vh × 1080px = 10.8px */
+    padding-bottom: 11px;
+    padding-left: 19px;    /* 1vw × 1920px = 19.2px */
+    padding-right: 19px;
+}
+
+.profile-pic {
+    width: 154px;          /* 8vw × 1920px = 153.6px */
+    height: 154px;         /* 8vw × 1920px = 153.6px */
+    object-fit: cover; 
+    border-radius: 50%;
+    display: block;  /* 元素作为块级元素显示 */
+    margin: 0 auto;  /* 水平居中 */
+    margin-top: 77px; /* 4vw × 1920px = 76.8px */
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 29px;       /* 1.5vw × 1920px = 28.8px */
+    font-weight: bold;
+    margin-top: 22px;      /* 2vh × 1080px = 21.6px */
+}
+
+.contact-info {
+    display: flex;
+    gap: 0.8em;
+    font-size: 1rem;
+    color: #eee;
+    justify-content: center;   /* 主轴方向居中 */
+    align-items: center;       /* 交叉轴方向居中 */
+}
+
+.contact-item {
+    color: #eee;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    transition: color 0.3s;
+}
+
+.contact-item:hover {
+    color: #1e90ff; /* 悬停变蓝色 */
+    cursor: pointer;
+}
+
+.contact-item i {
+    font-size: 1.2em;
+}
+
+hr {
+    margin-top: 32px;    /* 3vh × 1080px = 32.4px */
+    margin-left: 19px;   /* 1vw × 1920px = 19.2px */
+    margin-right: 19px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;  /* 左右对齐 */
+    align-items: center;             /* 垂直居中 */
+    color: white;
+    margin-left: 19px;   /* 1vw × 1920px */
+    margin-right: 19px;
+    margin-top: -32px;   /* -3vh × 1080px */
+    margin-bottom: -32px;
+}
+
+.profile-info-item1,
+.profile-info-item2 {
+    font-size: 21px;     /* 1.1vw × 1920px = 21.12px */
+    font-weight: normal;
+}
+
+.profile-info-item1 {
+    font-weight: bold;
+}
+
+.main-content {
+    position: fixed;
+    left: 710px;        /* 37vw × 1920px = 710.4px */
+    top: 76px;          /* 7vh × 1080px */
+    width: 1152px;      /* 60vw × 1920px */
+    height: 940px;      /* 87vh × 1080px */
+    overflow-y: scroll;       
+    overflow-x: hidden;
+    scrollbar-width: none;    /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+.main-content::-webkit-scrollbar {
+    display: none;            
+}
+
+.graduation-text {
+    font-family: "DM Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    font-size: 13px;     /* 0.7vw × 1920px = 13.44px */
+    color: white;
+    margin-top: 76px;    /* 7vh × 1080px */
+    letter-spacing: 0.05em; 
+}
+
+.title {
+    font-size: 58px;     /* 3vw × 1920px = 57.6px */
+    font-weight: bold;
+    color: white;
+    margin-top: -11px;   /* -1vh × 1080px = -10.8px */
+}
+
+.introduction-text { 
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);    
+    color: white;    
+    width: 969px;        /* 50.5vw × 1920px */
+    height: 162px;       /* 15vh × 1080px */
+    border-radius: 11px; /* 1vh × 1080px */
+    padding: 22px 38px;  /* 2vh × 1080px, 2vw × 1920px */
+    display: flex;             
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-box {
+    display: inline-flex; 
+    justify-content: center;  
+    align-items: center;      
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    width: 230px;        /* 12vw × 1920px */
+    height: 162px;       /* 15vh × 1080px */
+    margin-right: 38px;  /* 2vw × 1920px */
+    margin-bottom: 32px; /* 3vh × 1080px */
+    border-radius: 11px; /* 1vh × 1080px */
+    text-align: center;      
+}

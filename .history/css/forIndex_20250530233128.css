@@ -1,7 +1,7 @@
 .background-myweb {
     /* background-image: url(../images/back.jpg); */
     background-image: url(https://s21.ax1x.com/2025/05/30/pV9ZQR1.jpg);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -31,8 +31,8 @@
     height: 8vw;
     object-fit: cover; 
     border-radius: 50%;
-    display: block;  /*元素作为块级元素显示*/
-    margin: 0 auto; /*浏览器自动计算，一般用于水平居中*/
+    display: block;   
+    margin: 0 auto;
     margin-top: 4vw;        
 }
 
@@ -48,8 +48,8 @@
     gap: 0.8em;
     font-size: 1rem;
     color: #eee;
-    justify-content: center;   /*主轴方向居中*/
-    align-items: center;        /*主轴方向居中*/
+    justify-content: center;   /*?*/
+    align-items: center;        /*?*/
 }
 
 .contact-item {
