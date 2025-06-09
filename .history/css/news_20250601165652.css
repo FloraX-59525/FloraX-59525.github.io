@@ -1,0 +1,8 @@
+.main-content {
+    display: flex;
+}
+
+.news-all{
+    border: 1px solid #ccc;
+    width: 200;
+}

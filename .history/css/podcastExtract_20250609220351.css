@@ -1,0 +1,22 @@
+.background-myweb {
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-clip: padding-box;
+
+  position: relative;
+}
+
+.background-myweb::after {
+  content: "";
+  position: absolute;
+  top:0; left:0; right:0; bottom:0;
+  background: rgba(255,255,255,0.5); /* 白色半透明遮罩 */
+  pointer-events: none; /* 不影响点击 */
+}
+
+.container { 
+   
+}

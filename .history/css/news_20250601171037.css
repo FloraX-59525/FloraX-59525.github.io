@@ -1,0 +1,22 @@
+.main-content {
+    display: flex;
+    gap:180px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news-all{
+    border: 1px solid #ccc;
+    width: 525px;
+    height: 742.5px;
+    padding: 7px 5px;
+}
+
+.hr-1{
+     border: none;             /* 去除默认边框 */
+    height: 2px;              /* 设置高度（粗细） */
+    background-color: #000000;  /* 设置颜色 */
+    
+}

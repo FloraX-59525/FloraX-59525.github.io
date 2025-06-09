@@ -1,0 +1,9 @@
+.container { 
+    background-image: url(../images/back.jpg);
+    /* background-image: url(https://s21.ax1x.com/2025/05/30/pV9ZQR1.jpg); */
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}

@@ -1,0 +1,10 @@
+.main-content {
+    display: flex;
+    gap:20px
+}
+
+.news-all{
+    border: 1px solid #ccc;
+    width: 420px;
+    height: 584px;
+}

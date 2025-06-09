@@ -1,0 +1,26 @@
+.main-content {
+    display: flex;
+    gap:180px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news-all{
+    border: 1px solid #ccc;
+    width: 525px;
+    height: 742.5px;
+    padding: 7px 7px;
+}
+
+.hr-1{
+    border: none;             
+    height: 4px;              
+    background-color: #000000;  
+}
+.hr-1{
+    border: none;             
+    height: 4px;              
+    background-color: #000000;  
+}

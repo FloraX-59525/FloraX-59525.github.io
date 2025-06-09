@@ -1,0 +1,9 @@
+
+.container { 
+    background: #fff;
+    border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.15);
+      width: 100%;
+      max-width: 600px;
+      padding: 2.5rem 3rem 3rem;
+}

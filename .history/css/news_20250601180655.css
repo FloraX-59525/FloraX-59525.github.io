@@ -1,0 +1,146 @@
+.main-content {
+    display: flex;
+    gap:180px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news-all{
+    position: relative;
+    border: 1px solid #ccc;
+    width: 525px;
+    height: 742.5px;
+    padding: 7px 7px;
+    background-image: url(../images/news_back.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+
+.hr-1{
+    border: none;             
+    height: 3px;              
+    background-color: #000000;  
+}
+
+.hr-2{
+    border: none;             
+    height: 1px;              
+    background-color: #000000;
+    margin-top: -7px;  
+}
+
+.news-title{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -20px;  
+}
+
+.hr-3{
+    border: none;             
+    height: 1px;              
+    background-color: #000000;
+    margin-top: -45px;  
+}
+
+.hr-4{
+    border: none;             
+    height: 2px;              
+    background-color: #000000; 
+    margin-top: -7px;   
+}
+
+.content1{
+    border: 1px solid #000;
+    width: 340px;
+    height: 450px;
+    position: absolute;
+}
+
+.content1-video{
+    border: 1px solid #000;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 320px;
+    height: 240px;
+}
+
+.content1-title{
+    border: 1px solid #000;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 320px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content1-text{
+    border: 1px solid #000;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 320px;
+    height: 130px;
+    font-size: 12px;
+}
+.content2{
+    border: 1px solid #000;
+    top:550px;
+    width:340px;
+    height:190px;
+    position:absolute;
+}
+
+.content2-photo{
+    border: 1px solid #000;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 140px;
+    height: 170px;
+    position:absolute;
+}
+
+.content2-title{
+    border: 1px solid #000;
+    position:absolute;
+    left:160px;
+    top:10px;
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content2-text{
+    border: 1px solid #000;
+    position:absolute;
+    left:160px;
+    top:50px;
+    width: 170px;
+    height: 130px;
+    font-size: 12px;
+}
+
+.content3{
+    border: 1px solid #000;
+    left: 360px;
+    width:165px;
+    height:655px;
+    position:absolute;
+}
+
+.content3-title{
+    border: 1px solid #000;
+    position:absolute;
+    left: 10px;
+    top:5px;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}

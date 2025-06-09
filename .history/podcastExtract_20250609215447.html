@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>音频地址提取器</title>
+  
+</head>
+<body>
+  <div class="container">
+    <h2>提取网页中的音频地址</h2>
+    <input type="text" id="urlInput" placeholder="请输入网页 URL" />
+    <button onclick="extractAudio()">提取音频地址</button>
+    <div id="result">结果将在此显示</div>
+  </div>
+
+  <script>
+    async function extractAudio() {
+      const url = document.getElementById("urlInput").value.trim();
+      const resultDiv = document.getElementById("result");
+      if (!url) {
+        resultDiv.textContent = "请输入有效的网址。";
+        return;
+      }
+      resultDiv.textContent = "正在提取，请稍候...";
+
+      try {
+        const response = await fetch(
+          "https://api.codetabs.com/v1/proxy/?quest=" + encodeURIComponent(url)
+        );
+        if (!response.ok) {
+          throw new Error(`网络请求失败，状态码：${response.status}`);
+        }
+        const html = await response.text();
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, "text/html");
+
+        // 优先提取 og:audio
+        let audioUrl = null;
+        const meta = doc.querySelector('meta[property="og:audio"]');
+        if (meta) {
+          audioUrl = meta.getAttribute("content");
+        } else {
+          // 尝试提取 <audio src=...>
+          const audioTag = doc.querySelector("audio[src]");
+          if (audioTag) {
+            audioUrl = audioTag.getAttribute("src");
+          }
+        }
+
+        if (audioUrl) {
+          resultDiv.innerHTML = `
+            提取成功：<br>
+            <a href="${audioUrl}" target="_blank" rel="noopener noreferrer">${audioUrl}</a>
+          `;
+        } else {
+          resultDiv.innerHTML = `
+            ❗未找到音频地址。<br>
+            可能原因：<ul>
+              <li>页面未设置 <code>og:audio</code> 元标签</li>
+              <li>页面未使用 <code>&lt;audio src="..."&gt;</code> 标签</li>
+              <li>页面通过 JavaScript 动态加载内容，无法通过静态方式解析</li>
+            </ul>
+          `;
+        }
+      } catch (error) {
+        resultDiv.textContent = "提取失败：" + error;
+      }
+    }
+  </script>
+</body>
+</html>
